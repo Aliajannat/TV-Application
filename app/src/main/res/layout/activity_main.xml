@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CAC59B"
+
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ED2819"
+            android:orientation="vertical">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="216dp"
+    android:id="@+id/imageview"
+    android:src="@drawable/icon"
+    />
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="160dp"
+                    android:layout_height="170dp"
+                    android:id="@+id/hum"
+                    android:padding="20dp"
+                    android:layout_margin="20dp"
+                    android:drawableTop="@drawable/o"
+                    android:text="Somoy TV "
+                    />
+
+                <Button
+                    android:layout_width="160dp"
+                    android:layout_height="170dp"
+                    android:id="@+id/any"
+                    android:padding="20dp"
+                    android:drawableTop="@drawable/s"
+                    android:layout_margin="20dp"
+                    android:text="Jamuna TV "
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="160dp"
+                    android:layout_height="170dp"
+                    android:id="@+id/express"
+                    android:padding="20dp"
+                    android:layout_margin="20dp"
+                    android:text="Ekattur TV "
+                    android:drawableTop="@drawable/b"
+                    />
+
+                <Button
+                    android:layout_width="160dp"
+                    android:layout_height="170dp"
+                    android:id="@+id/samma"
+                    android:padding="20dp"
+                    android:layout_margin="20dp"
+                    android:text="Channel 24"
+                    android:drawableTop="@drawable/st"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
